@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<!-- Product Detail-->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 col-md-3">
+            <h3>Categories</h3>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <span class="badge">14</span>Cras justo odio
+                </li>
+                <li class="list-group-item">
+                    <span class="badge">7</span>Dapibus ac facilisis in
+                </li>
+                <li class="list-group-item">
+                    <span class="badge">5</span>Morbi leo risus
+                </li>
+                <li class="list-group-item">
+                    <span class="badge">2</span>Porta ac consectetur ac
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-8 col-md-9">
+            <div class="thumbnail">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img class="img-responsive" src="http://placehold.it/750x600" alt="Product Image" />
+                        <div class="thumbnails row">
+                            <div class="col-xs-3">
+                                <a href="#">
+                                    <img src="http://placehold.it/750x600" alt="Thumbnail" class="img-thumbnail img-responsive" />
+                                </a>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href="#">
+                                    <img src="http://placehold.it/750x600" alt="Thumbnail" class="img-thumbnail img-responsive" />
+                                </a>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href="#">
+                                    <img src="http://placehold.it/750x600" alt="Thumbnail" class="img-thumbnail img-responsive" />
+                                </a>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href="#">
+                                    <img src="http://placehold.it/750x600" alt="Thumbnail" class="img-thumbnail img-responsive" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <h4 class="pull-right">$24.99</h4>
+                        <h4><a href="product.html">Product Name</a></h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                        <form role="form">
+                            <div class="number form-group">
+                                <label>Number</label>
+                                <input type="number" class="input-sm form-control" id="number" />
+                            </div>
+                            <div class="form-group">
+                                <label>Color</label>
+                                <select id="color" class="form-control">
+                                    <option name="color">Blue</option>
+                                    <option name="color">Green</option>
+                                    <option name="color">Red</option>
+                                    <option name="color">Yellow</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Size</label>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default">XS</button>
+                                    <button type="button" class="btn btn-default">S</button>
+                                    <button type="button" class="btn btn-default">M</button>
+                                    <button type="button" class="btn btn-default">L</button>
+                                    <button type="button" class="btn btn-default">XL</button>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-default">Contact Seller</button>
+                                <button type="submit" class="btn btn-success">Add to Cart</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Reviewer Section -->
+<div class="description">
+    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+<div class="ratings">
+    <p class="pull-right">3 reviews</p>
+    <p>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+        4.0 stars
+    </p>
+</div>
+<div class="well">
+    <div class="text-right">
+        <a class="btn btn-success">Leave a Review</a>
+    </div>
+</div>
+
+<!-- Comments Section -->
+<div class="row">
+    <div class="col-md-12">
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star-empty"></span>
+        David More
+        <span class="pull-right">1 day ago</span>
+        <p>From <em>United States</em></p>
+        <p>This product was great in terms of quality. I would definitely buy another!</p>
+    </div>
+</div>
+
+<!-- Other Products Section -->
+<h3>Other Products</h3>
+<div class="row">
+    <div class="col-md-4">
+        <div class="thumbnail">
+            <img src="http://placehold.it/750x600" alt="Other Product" class="img-responsive">
+            <div class="caption">
+                <h4><a href="e-commerce-detail.html">Other Product Name</a></h4>
+                <p>This is a short description of another product.</p>
+                <p class="pull-right">$19.99</p>
+            </div>
+        </div>
+    </div>
+    <!-- Add more products as needed -->
+</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
